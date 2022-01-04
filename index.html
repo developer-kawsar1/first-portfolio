@@ -5,11 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> our first portfolio website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
+    <style type="text/css" media="all">
+      h1{
+        line-height: 1.0;
+        font-size: 30px;
+        color: orange;
+      }
+      h1 span{
+        color: orangered;
+        
+      }
+      h3{
+        
+      }
+      section{
+        display: flex;
+       
+        text-align: center;
+      }
+      
+      
+     .half-width{
+       width:50%;
+     } 
+     .half-width img{
+       width: 80%;
+     }
+     .link_btn{
+       padding: 10px 20px;
+       background-image: linear-gradient(orange,crimson);
+       color: white;
+       text-decoration: none;
+       font-weight: bold;
+       font-weight: bold;
+       border-radius: 1px;
+     }
+     
+     @media(max-width:600px){
+       section{
+         flex-direction: column;
+         padding-top: 20px;
+       }
+       .half-width{
+         width: 100%;
+         flex-direction: column;
+         margin-top: 20px;
+       }
+     }
+
+    </style>
 </head>
 <body>
-    
+     
+     <section>
+       <div class="half-width">
+         <h1> Welcome To</h1>
+         <h1><span>Kawsar ahmed</span> world </h1>
+         <h3>Build climber and train stopper </h3>
+         <p>lorem sfjsdl asjflsa sakdjfsjak sajfjasl sajhask;f sadjfsaf sajf;fl safjnas sadfhjds sdfjsf fsdfhsdfsdk sdjhsdklf sdsdjlkdsjfl f sd fjsdfl; ds </p> 
+         <a class="link_btn" href="#">Hire me </a>
+         
+     </div> 
+     <div class="half-width">
+       <img src="images/my-bg.png" alt="" />
+     </div>
+     </section>
 
-     <p> some content </p>
 </body>
 </html>
